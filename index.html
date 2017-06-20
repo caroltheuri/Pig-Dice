@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 >PIG DICE GAME</h1>
+          <div class="row text-center">
+       <h2><u><em>Directions on how the game is played:</em></u></h2>
+      <p>The pig dice is a game that allows two users to compete
+      against each other by rolling the dice</p>
+      <img src="pig-clipart-956c0c378d8be7ee98367282ec892f8b.jpg" alt="pig"><br>
+         <ul style="text-align:center;">
+           <p>Player 1 is the first to toss the dice.</p>
+          <p>If the dice is 1 then the score of player 1 in that turn is 0 and it is player's two turn.</p>
+           <p>If the dice is not a 1 then the player1 scores some points</p>
+           <p>The player should pass the dice to player 2 for him also to score points</p>
+           <p>The interesting thing about this is that the first to score 10 points wins.</p>
+         </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" id="cards">
+          <div class="col-md-6" id="one">
+            <h3><u>Player One</u></h3>
+            <span id="dice1">0</span><br><br><br>
+            <span id="total1">0</span>
+
+          </div>
+          <div class="col-md-6" id="two">
+            <h3><u>Player Two</u></h3>
+            <span id="dice2">0</span><br><br><br>
+            <span id="total2">0</span>
+
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div><br><br>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="playerone">
+            <button type="submit" class="btn btn-primary" id="player1">Player1 Roll Dice</button>
+            <button type="submit" class="btn btn-primary" id="hold1">Player1 Hold</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <form id="playertwo">
+            <button type="submit" class="btn btn-primary" id="player2">Player2 Roll Dice</button>
+            <button type="submit" class="btn btn-primary" id="hold2">Player1 Hold</button>
+          </form>
+        </div></div><br>
+      <div class="result-show">
+         <h2>The winner of the game is <span id="winner"></span></h2>
+      </div>
+
+      </div>
+
+      <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+      <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>

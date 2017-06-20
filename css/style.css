@@ -1,0 +1,63 @@
+.container {
+  background-color: pink;
+  margin-left: 0px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cards {
+  border-style: groove;
+  height: 250px;
+  text-align: center;
+  border-bottom-style: inset;
+}
+
+#one {
+  border-right-style: inset;
+  border-right-width: thick;
+  height: 100%;
+  width: 50%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#two {
+  width: 50%;
+  height: 100%;
+}
+
+img {
+  border-color: red;
+  border-style: solid;
+}
+#playerone{
+text-align: center;
+padding-left: 30%;
+}
+#playertwo{
+  text-align: center;
+  padding-right: 30%;
+}
+span#total1{
+  font-size:450%;
+  color:red;
+}
+span#total2{
+  font-size:450%;
+  color:red;
+}
+span#dice1{
+  font-size: 200%;
+  color:blue;
+}
+span#dice2{
+  font-size: 200%;
+  color:blue;
+}
+div.result-show{
+  display:none;
+  text-align: center;
+}
